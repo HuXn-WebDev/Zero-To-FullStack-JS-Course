@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: rgb(21, 21, 21);
+}
+
+body h1 {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+}
