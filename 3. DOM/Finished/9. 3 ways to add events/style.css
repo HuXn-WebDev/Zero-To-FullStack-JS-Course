@@ -1,0 +1,34 @@
+body {
+  margin: 10px auto;
+  width: 450px;
+  font-family: sans-serif;
+}
+
+h3 {
+  margin: 0;
+  padding-bottom: 0.3em;
+  color: white;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+.box {
+  background: #a435f0;
+  padding: 10px 20px 10px;
+  border-top: 2px solid rgb(43, 43, 175);
+  position: relative;
+}
+
+.remove {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  border: none;
+  background: transparent;
+  color: darkred;
+  cursor: pointer;
+  font-size: 1em;
+}
