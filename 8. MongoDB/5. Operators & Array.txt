@@ -1,0 +1,2 @@
+db.collectionName.find({price: ${$lt: 200}}) 👉 $lt means (Less then)
+db.collectionName.find({price: ${$gt: 200}}) 👉 $gt means (Greater then)

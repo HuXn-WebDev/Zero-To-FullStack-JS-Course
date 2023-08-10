@@ -1,0 +1,5 @@
+db.collectionName.find().count() 👉 Give us the number of collections we have.
+db.collectionName.find().limit(2) 👉 Allows us to limit our query.
+db.collectionName.find({}, {"name": 1}).sort({"name": 1}) 👉 Isinding Order
+db.collectionName.find({}, {"name": 1}).sort({"name": -1}) 👉 Desending Order
+db.collectionName.find({}, {"name": 1}).sort({"name": 1}).skip(1) 👉 Allows us to skip (amountProvided) query

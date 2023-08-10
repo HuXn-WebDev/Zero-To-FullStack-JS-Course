@@ -1,0 +1,6 @@
+db.student.find() 👉 All Data
+db.student.find({"name": "alex"}) 👉 Student with the name of alex
+db.student.find({"name": "alex", age: 20}) 👉 Student with the name of alex & age of 20
+db.student.find({"name": "alex"}, {"name": 1) 👉 Just give me the "NAME" of the student (nothing else)
+db.student.find({"name": "alex"}, {"name": 1) 👉 Give me everything (BUT) the name.
+db.student.find({}, {"name": 1}) 👉 Give me all the documents with just their NAMES.

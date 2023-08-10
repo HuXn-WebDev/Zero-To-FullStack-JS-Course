@@ -1,0 +1,7 @@
+const results = db.movies.find().toArray()
+console.table(results)
+
+-- HELP --
+db.movies.deleteOne.help() 👉 Gives us information about specific method
+db.movies.deleteMany.help() 👉 Gives us information about specific method
+

@@ -1,0 +1,4 @@
+studentNames = { "name": "alex", age: 20 }
+db.students.insertOne(studentNames)
+
+db.studentNames.find()

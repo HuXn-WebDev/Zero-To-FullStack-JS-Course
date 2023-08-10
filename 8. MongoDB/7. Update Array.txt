@@ -1,0 +1,2 @@
+db.friends.updateOne({"names": ["alex", "john"]}, { $push: {"names": "huxn"} }) 👉 Push new item at the end of the array.
+db.peoples.updateOne({_id: ObjectId("6499e17d7b0390625e58c20d")}, {$pull: { "p": ["new peoples"] }}) 👉 Update by actual ID

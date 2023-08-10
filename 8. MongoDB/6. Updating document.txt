@@ -1,0 +1,2 @@
+db.collectionName.updateOne({"name": "Movie"}, {$set: {"name": "New Movie"}}) 👉 Update Movie to "New Movie"
+db.collectionName.updateOne({"name": "count"}, {$inc: {count: 2}}) 👉 $inc (increment) by specified amount.
