@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+body {
+  background: #000;
+  color: white;
+}
+
+.box {
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid purple;
+}
+
+.special {
+  color: teal;
+  font-style: italic;
+}
+
+strong {
+  color: rgba(173, 23, 23, 0.863);
+}
