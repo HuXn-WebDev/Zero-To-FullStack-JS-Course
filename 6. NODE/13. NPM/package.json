@@ -1,0 +1,18 @@
+{
+  "name": "huxn",
+  "version": "1.0.0",
+  "description": "my package",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@huxn-webdev"
+  },
+  "author": "HuXn WebDev",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

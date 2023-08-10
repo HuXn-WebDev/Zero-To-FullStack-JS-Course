@@ -1,0 +1,18 @@
+npm - Global command, comes with Node
+
+// 👇 Version Checking 
+npm --version
+npm -v
+
+// 👇 Local Dependecies
+Those dependecies which are used only in this particular project
+npm i <packagename>
+
+// 👇 Global Dependecies
+Those dependecies which you can use in any project
+npm install -g <packagename>
+npm i -g <packagename> // 👈 Shorthand
+sudo npm install -g <packagename>
+
+// 👇 Unstalling Dependecies
+npm uninstall <packagename>

@@ -1,0 +1,17 @@
+https://npmjs.com/
+
+World's biggest code store 🔥
+When we install Node.js we automatically get "npm" for free.
+
+In NPM official site, you can find anything from small things like small utility functions to large frameworks/libraries like "react/vue" etc.
+
+NPM enable us to do three things.
+    1. Reuse our own code in other projects
+    2. Use code written by other developers.
+    3. Share our own solution(s).
+
+In NPM site you'll found lot's of great codebases BUT
+as it's opensource so anyone can push anything, so it's on you
+to find the great one's and leave the bad one's.
+
+Pro Tip: If the number of weekly download is high, that'd be a great package/code.

@@ -1,0 +1,3 @@
+Nodemon is a package which we use to "watch" our files & "restart" our app for us. So that way we don't have to each and everytime type (node index.js) etc.
+
+npm install nodemon

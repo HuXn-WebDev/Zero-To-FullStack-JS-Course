@@ -1,0 +1,19 @@
+package.json 👉 manifest file (stores important info about projct/package)
+
+npm init 👉 step by step, press enter to skip
+npm init -y 👉 setup everything as a default
+
+
+Why do we need package.json file?
+because it records our project dependencies and configures our project
+which means if we publish our project to somewhere on the internet
+and people just use (npm install) it will install all the packages
+which we've used in this current project.
+
+
+// VIVEWRS DON'T HAVE TO FOLLOW YOU HERE (if they don't)
+1. Create a git repo
+2. ignore node_modules folder
+3. push your code into it
+4. then clone that repo
+5. and reinstall the packages by using (npm i)
