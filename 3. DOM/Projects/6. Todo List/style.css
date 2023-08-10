@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ec5766;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background-color: #fff;
+  padding: 2em;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  display: block;
+}
+
+.todos {
+  margin-top: 2em;
+}
+
+.todo {
+  border-left: 4px solid #ec5766;
+  padding: 5px;
+  color: rgb(75, 75, 75);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.delete {
+  color: #d91e36;
+  cursor: pointer;
+}
