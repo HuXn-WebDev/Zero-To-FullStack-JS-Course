@@ -1,0 +1,6 @@
+1. VSC
+2. Node.js
+3. npm i -g typescript 
+4. npm install -g ts-node
+5. Install Code Runner
+6. Make a shortcut key for code runner (ctr + enter)
