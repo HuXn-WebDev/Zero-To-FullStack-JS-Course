@@ -3,7 +3,7 @@
 // 3. Add (firstFavNum & secondFavNumber).
 // 4. Subtract (firstFavNum & secondFavNumber).
 // 5. Multiply (firstFavNum & secondFavNumber).
-// 6. Divided (firstFavNum & secondFavNumber).
+// 6. Divide (firstFavNum & secondFavNumber).
 // 7. Check (firstFavNum Mod secondFavNumber)
 // 8. Check the power of (firstFavNum)
 
