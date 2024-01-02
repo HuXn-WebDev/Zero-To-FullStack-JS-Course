@@ -7,7 +7,7 @@
 let name = "Laura Solis";
 let whatDoYouWannaBecomeInYourLife = "programmer";
 let gender = "female";
-let twitterHandle = "@huxnwebdev";
+let twitterHandle = "Not applicable";
 
 console.log(name);
 console.log(whatDoYouWannaBecomeInYourLife);
