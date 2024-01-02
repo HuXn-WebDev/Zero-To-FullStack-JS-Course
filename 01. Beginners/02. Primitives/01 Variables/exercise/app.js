@@ -4,9 +4,9 @@
 // 4. Create variable name (twitterHandle) & store your twitter handle.
 // 5. Finally log all variables to the console.
 
-let name = "HuXn WebDev";
+let name = "Laura Solis";
 let whatDoYouWannaBecomeInYourLife = "programmer";
-let gender = "male";
+let gender = "female";
 let twitterHandle = "@huxnwebdev";
 
 console.log(name);
