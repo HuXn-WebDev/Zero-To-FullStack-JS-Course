@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(28, 28, 28);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.testimonial-container {
+  background-color: rgb(19, 19, 19);
+  color: #fff;
+  padding: 5rem 8rem;
+  max-width: 800px;
+  position: relative;
+  box-shadow: 0 2px 4px 2px rgb(19, 19, 19);
+}
+
+.testimonial {
+  line-height: 25px;
+  text-align: center;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-avater {
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.user .user-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.user .username {
+  margin: 0;
+}
+
+.line {
+  background: crimson;
+  height: 4px;
+  width: 100%;
+  margin-top: 20px;
+  animation: animation 10s linear infinite;
+}
+
+@keyframes animation {
+  0% {
+    transform: scaleX(0);
+  }
+}

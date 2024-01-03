@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 80%;
+  background: #c81a54;
+  padding: 7rem 8rem;
+}
+
+.wrapper h1 {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.wrapper .captcha-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  margin: 30px 0 20px;
+}
+
+.captcha-area .captcha-container {
+  height: 100%;
+  width: 350px;
+  user-select: none;
+  background: #000;
+  position: relative;
+  border-radius: 5px;
+}
+
+.captcha-container .captcha {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  width: 100%;
+  color: #fff;
+  font-size: 35px;
+  letter-spacing: 10px;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 2px #b1b1b1;
+  font-family: sans-serif;
+}
+
+.wrapper button {
+  border: none;
+  outline: none;
+  color: #041897;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.captcha-area .reload-btn {
+  border-radius: 5px;
+  width: 75px;
+  height: 100%;
+  font-size: 23px;
+  margin-left: 20px;
+}
+
+.captcha-area i {
+  transition: transform 0.3s ease;
+}
+
+.input-area .reload-btn:hover i {
+  transform: rotate(15deg);
+}
+
+.wrapper .input-area {
+  height: 60px;
+  width: 100%;
+  position: relative;
+}
+
+.input-area input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.input-area .check-btn {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  font-size: 17px;
+  height: 45px;
+  padding: 0 20px;
+  opacity: 0;
+  pointer-events: none;
+  background: #041897;
+  color: #fff;
+  transform: translateY(-50%);
+}
+
+.input-area input:valid + .check-btn {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.wrapper .status-text {
+  display: none;
+  font-size: 18px;
+  color: #ff0000;
+  text-align: center;
+  margin: 20px 0 -5px 0;
+}

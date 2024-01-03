@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #d41b27;
+  --black-color: #050505;
+  --main-font: "Playfair Display";
+  --secondary-font: Roboto;
+}
+
+.logo {
+  color: #000;
+  font-family: var(--main-font);
+  margin-left: 4rem;
+}
+
+.highlight {
+  color: var(--main-color);
+}
+
+.main-btn-fill {
+  background: var(--main-color);
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: var(--secondary-font);
+  margin: 10px;
+}
+
+.main-btn {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: var(--secondary-font);
+  margin: 10px;
+}
+
+.btn-animation:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  transition: 0.5s ease;
+}
+
+/* HEADER */
+.top-header {
+  height: 80vh;
+}
+
+.top-header__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.main-headings {
+  color: var(--black-color);
+  font-family: var(--main-font);
+  font-size: 400%;
+  margin: 3rem;
+}
+
+.main-img {
+  margin-right: 20px;
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SECTION 2 */
+.delivery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.delivery__img {
+  width: 250px;
+  height: 250px;
+  background-image: url(assets/Images/img-2.png);
+  background-position: center;
+  background-size: cover;
+  margin-right: 3rem;
+}
+
+.delivery__content {
+  width: 30rem;
+}
+
+.delivery__headings {
+  font-family: var(--secondary-font);
+  margin-bottom: 10px;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.delivery__sub-headings {
+  font-family: var(--secondary-font);
+  margin-bottom: 2rem;
+}
+
+.delivery-btn {
+  border: 1px solid #fff;
+}
+
+/* SECTION 3 */
+.why-foody {
+  height: 110vh;
+  background: #fff;
+  color: #000;
+}
+
+.foody-headings {
+  text-align: center;
+  margin-top: 10rem;
+  padding-top: 2rem;
+}
+
+.why-foody__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards__card {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.card__title {
+  font-family: var(--main-font);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card__img {
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+  margin: 0 auto;
+}
+
+.img-one {
+  background-image: url("assets/Images/img-2.png");
+}
+
+.card-info {
+  margin: 20px;
+  font-family: var(--secondary-font);
+  text-align: center;
+  line-height: 20px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* SECTION 4 */
+.testimonial {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: #fff;
+}
+
+.user-img {
+  background-image: url("assets/Images/ian-dooley-d1UPkiFd04A-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 26%;
+  height: 30rem;
+  box-shadow: 20px 20px 2px 2px #fff;
+}
+
+.user-rating-info {
+  width: 20rem;
+  height: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.user-name {
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: var(--main-font);
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #000;
+  height: 40vh;
+}
+
+.footer-card {
+  margin: 0 auto;
+  font-family: var(--secondary-font);
+  font-weight: normal;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+}
+
+.footer-info {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-headings {
+    font-size: 2rem;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .delivery {
+    text-align: center;
+  }
+  .delivery__img {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  .delivery__headings {
+    font-size: 2rem;
+  }
+  .delivery__sub-headings {
+    font-size: 12px;
+  }
+
+  .why-foody {
+    height: 120vh;
+  }
+
+  .card__title {
+    font-size: 1.4rem;
+  }
+
+  .user-img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .user-rating-info {
+    margin-bottom: 8rem;
+    text-align: center;
+  }
+  .user-name {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: var(--main-font);
+  }
+
+  .footer {
+    margin-top: 10rem;
+  }
+}

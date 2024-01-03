@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap");
+
+/* Basic */
+body {
+  background-color: #ebeae9;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 5rem;
+}
+
+nav ul {
+  margin-left: 5rem;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav .burger {
+  margin-right: 5rem;
+  cursor: pointer;
+}
+
+nav .burger span {
+  height: 4px;
+  border: 2px solid black;
+  margin: 4px;
+  background: #000;
+}
+
+header {
+  margin: 6rem;
+}
+
+.main-headings {
+  width: 50%;
+  font-size: 3rem;
+}
+
+.primary-headings {
+  width: 50%;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.bg-gray {
+  background: rgb(53, 53, 53);
+  color: #fff;
+  padding: 2px 10px;
+  font-weight: bold;
+}
+/* Header End */
+
+/* Main Start */
+main {
+  margin: 0 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+main .img {
+  width: 50%;
+}
+
+/* SECTION THREE START */
+.section-three {
+  margin-left: 5rem;
+}
+
+.section-three .primary-headings {
+  margin-bottom: 10rem;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three .item h1 {
+  font-size: 2rem;
+  color: rgb(53, 53, 53);
+  margin-left: 1rem;
+}
+
+.section-three img {
+  width: 400px;
+  height: 500px;
+  margin: 50px;
+}
+/* SECTION THREE END */
+
+/* FOOTER START */
+footer {
+  background: var(--primary-color);
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+footer .logo-container h1 {
+  font-size: 4rem;
+  font-family: var(--main-font);
+  margin-bottom: 20px;
+}
+
+footer .logo-container p {
+  max-width: 400px;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+
+footer .about-company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .about-company .container {
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.about-company .container h1 {
+  margin-bottom: 50px;
+}
+
+.about-company .container p {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 100vh;
+  background: rgb(43, 43, 43);
+}
+
+@media screen and (max-width: 740px) {
+  header .main-headings {
+    width: 100%;
+  }
+  header .primary-headings {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .section-three .main-headings {
+    width: 100%;
+  }
+  .section-three .primary-headings {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .section-three img {
+    margin: 0;
+  }
+}

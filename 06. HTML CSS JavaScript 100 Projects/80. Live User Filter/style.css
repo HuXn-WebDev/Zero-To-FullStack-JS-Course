@@ -1,0 +1,129 @@
+:root {
+  --primary-color: white;
+  --primary-label: black;
+  --secondary-label: white;
+  --white-ball: white;
+  --black-ball: black;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  width: 600px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.header {
+  background-color: black;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.header input {
+  border: 0;
+  border-radius: 50px;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 100%;
+  outline: none;
+}
+
+.user-list {
+  background-color: white;
+  list-style-type: none;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* JavaScript */
+.user-list li {
+  display: flex;
+  padding: 20px;
+}
+
+.user-list img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.user-list .user-info h4 {
+  margin: 0 0 10px;
+}
+
+.user-list .user-info p {
+  font-size: 12px;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.user-list li.hide {
+  display: none;
+}
+
+.toggler-container {
+  position: absolute;
+  bottom: 1rem;
+  right: 4rem;
+}
+
+#switch {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+label {
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-color: var(--primary-label);
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+label::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 70px;
+  background-color: var(--white-ball);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: 0.5s;
+}
+
+#switch:checked + label:after {
+  background-color: var(--black-ball);
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+#switch:checked + label {
+  background-color: var(--secondary-label);
+}
+
+label:active:after {
+  width: 60px;
+}

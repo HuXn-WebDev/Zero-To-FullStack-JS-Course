@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* color: #fff; */
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  border: 2px solid black;
+  padding: 20px;
+  width: 30%;
+  height: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 5px 0px;
+  transform: scale(1.2);
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fa-brands {
+  font-size: 2rem;
+}
+
+.followers {
+  font-size: 5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.fa-facebook {
+  color: rgb(66, 103, 178);
+}
+
+.fa-youtube {
+  color: rgb(255, 0, 0);
+}

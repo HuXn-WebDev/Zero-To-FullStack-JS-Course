@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 70%;
+  padding: 10px;
+}
+
+.main {
+  text-align: center;
+  padding: 10px;
+  font-size: 2em;
+  border: 3px solid white;
+}
+
+.typingArea {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 20%;
+  outline: none;
+  border: none;
+  font-size: 2em;
+  padding: 10px;
+  color: white;
+  background-color: blueviolet;
+  margin-top: 20px;
+}

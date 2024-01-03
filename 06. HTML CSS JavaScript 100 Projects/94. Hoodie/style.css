@@ -1,0 +1,334 @@
+/* Playfair Display */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #239b7e;
+  --main-font: "Playfair Display SC", serif;
+  --primary-font: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+.logo {
+  margin-left: 5rem;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 5rem;
+  /* ---  uncomment this code --- */
+  /* border: 2px solid #000; */
+}
+
+.burger span {
+  border: 2px solid var(--main-color);
+  width: 40px;
+  height: 1px;
+  margin: 2px;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  margin-top: 2rem;
+}
+
+.main-headings {
+  font-size: 4rem;
+  font-family: var(--main-font);
+  transform: translateY(-40px);
+  color: #00000097;
+  line-height: 5rem;
+}
+
+.main-headings span {
+  color: #000;
+}
+
+.primary-headings {
+  max-width: 500px;
+  font-family: var(--primary-font);
+  line-height: 25px;
+  margin-bottom: 1rem;
+  color: #716d6d;
+}
+
+.btn-fill {
+  background: var(--main-color);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.btn-fill:hover {
+  background-color: #fff;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.btn-outline.active {
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  background: transparent;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.btn-outline.active:hover {
+  background: var(--main-color);
+  color: #fff;
+}
+
+.btn-outline {
+  border: 2px solid #ccc;
+  color: #ccc;
+  background: transparent;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.btn-outline:hover {
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+
+.img-container {
+  border-radius: 50%;
+  box-shadow: 4px 7px 5px 2px #bcbaba;
+}
+
+.header-img {
+  border-radius: 100%;
+  background: url(images/oswaldo-ibanez-1NPUmTaiMeg-unsplash.jpg);
+  background-position: top;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+/* Section 1 */
+.section-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.img-container {
+  border-radius: 50%;
+  box-shadow: 4px 7px 5px 2px #bcbaba;
+}
+
+.section-one-img {
+  background: url(images/gesphotoss-1i9K55ni5Dk-unsplash.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.primary-headings {
+  max-width: 500px;
+  font-family: var(--primary-font);
+  line-height: 25px;
+  margin-bottom: 1rem;
+  color: #716d6d;
+}
+
+/* Products */
+.products {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products .products-heading {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.products .product-categories button {
+  margin-right: 20px;
+  margin-bottom: 2rem;
+}
+
+.products .product-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  max-width: 60rem;
+}
+
+.products .product-items-container .item {
+  margin: 20px;
+}
+
+.products .product-items-container .item-layer {
+  background: #ebf1f0;
+  padding: 40px;
+  margin-right: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.products .product-items-container .item-layer img {
+  width: 150px;
+  height: 200px;
+}
+
+.products .product-items-container .item .item-name {
+  font-family: var(--primary-font);
+  margin-bottom: 10px;
+}
+
+.products .product-items-container .item .item-price {
+  font-family: var(--primary-font);
+  margin-bottom: 10px;
+}
+
+.products .product-items-container .item .view-product {
+  font-family: var(--primary-font);
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: var(--main-color);
+  border-bottom: 1px solid var(--main-color);
+}
+
+/* Customers */
+.customers-reviews {
+  margin-top: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.customer {
+  text-align: center;
+}
+
+.customers-heading {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.customers-reviews .customer-description {
+  font-size: 12px;
+  margin-top: 20px;
+  max-width: 200px;
+  text-align: center;
+  margin: 10px;
+  font-family: var(--primary-font);
+}
+
+.customer .customer-img .img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.customer-img .img-one {
+  background: url(images/yogendra-singh-uWs_N5Dlyiw-unsplash.jpg);
+}
+.customer-img .img-two {
+  background: url(images/joshua-rondeau-xazIYnxpS2Q-unsplash.jpg);
+}
+.customer-img .img-three {
+  background: url(images/milan-popovic-kOnmHdLJTNI-unsplash.jpg);
+}
+
+footer {
+  background: #1f1e1e;
+  margin-top: 10rem;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  font-family: var(--primary-font);
+}
+
+footer .container .footer-heading {
+  margin-bottom: 3rem;
+}
+
+footer .container .footer-primary-heading {
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* You can make it responsive for your own screen if you wanna to, but for now this is good enough. */
+@media only screen and (max-width: 900px) {
+  header {
+    height: 120vh;
+    text-align: center;
+  }
+
+  .section-one {
+    height: 120vh;
+    text-align: center;
+  }
+
+  .header-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .main-headings {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  .primary-headings {
+    width: 400px;
+  }
+
+  .customer .customer-img .img {
+    width: 150px;
+    height: 150px;
+  }
+}

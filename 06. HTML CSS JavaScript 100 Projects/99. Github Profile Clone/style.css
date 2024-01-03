@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #161b22;
+  --secondary-color: #0d1117;
+}
+
+body {
+  background: var(--secondary-color);
+  font-family: Hubot-Sans, sans-serif;
+  font-weight: normal;
+}
+
+/*  ************************** Navigation ************************** */
+nav {
+  background: var(--primary-color);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+nav form {
+  width: 20%;
+}
+
+nav form input {
+  background: var(--secondary-color);
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #4a515d;
+  color: #fff;
+}
+
+nav form input::placeholder {
+  color: #fff;
+}
+
+/*  ************************** Header ************************** */
+header {
+  border-bottom: 0.6px solid #242424;
+}
+
+.active {
+  border-bottom: 2px solid rgb(255, 102, 0);
+  padding-bottom: 20px;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  margin-left: 20px;
+}
+
+.btns-container a {
+  color: #fff;
+}
+
+.btns-container button {
+  background: transparent;
+  border: none;
+  margin-left: 20px;
+  border: 1px solid #585d63;
+  padding: 6px 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+}
+
+/*  ************************** Header ************************** */
+.about-user {
+  width: 30%;
+  margin-left: 30px;
+  color: #fff;
+}
+
+.about-user .user-avatar {
+  background-image: url("https://avatars.githubusercontent.com/u/85052811?v=4");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  transform: translateY(-20px);
+  border-radius: 100%;
+}
+
+.user-name {
+  color: #585d63;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+button.follow {
+  width: 70%;
+  background: #21262d;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 5px;
+  margin-bottom: 20px;
+}
+
+.followers-info {
+  margin: 15px 0;
+}
+
+.followers-info a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.followers-info span {
+  color: #545c66;
+}
+
+.company,
+.location,
+.blog,
+.twitter_username {
+  margin: 10px 0;
+  color: #dce9f7;
+  font-size: 13px;
+}
+
+/*  ************************** REPOSITORIES ************************** */
+main {
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 1rem;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+.repo-card {
+  border: 1px solid #4a515d;
+  border-radius: 5px;
+  width: 43%;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  padding-top: 1.3rem;
+}
+
+.repo-title {
+  text-decoration: non;
+  color: #549ef3;
+  font-weight: 500;
+  margin-top: 3rem;
+  font-size: 13px;
+}
+
+.repo-subtitle {
+  font-size: 11px;
+  margin-top: 15px;
+  color: #868686;
+}
+
+.popularity {
+  display: flex;
+  color: #585c5e;
+}
+
+.stars {
+  margin-right: 20px;
+  color: #585c5e;
+}
+
+.repos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pill {
+  border: 1px solid #4a515d;
+  color: #a3acbc;
+  width: 50px;
+  padding: 3px 10px;
+  border-radius: 100px;
+  font-size: 10px;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/*  ************************** STYLING ICONS ************************** */
+.icon-container {
+  margin: 5px 0;
+}
+
+i {
+  color: #4a515d;
+  margin-right: 5px;
+}
+
+.fa-github {
+  font-size: 2rem;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+section.fork {
+  display: flex;
+  align-items: center;
+}
+
+.fork-svg {
+  width: 14px;
+  margin-bottom: 20px;
+  margin-right: 6px;
+}

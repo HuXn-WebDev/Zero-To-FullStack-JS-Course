@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar-wrapper {
+  width: 100%;
+  height: 100vh;
+  background: #eccc68;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  width: 20rem;
+  height: 20rem;
+  background-color: #fd7272;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transform: scale(0) rotate(-180deg);
+  transition: transfrom 0.5s;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0) 0.23;
+}
+
+.change .navbar {
+  transform: scale(1) rotate(0);
+  transition: all 1s;
+}
+
+.navbar-link {
+  position: absolute;
+}
+
+.navbar-link i {
+  font-size: 2.5rem;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover i {
+  color: #222;
+}
+
+.navbar-link:nth-child(1) {
+  top: 2rem;
+}
+
+.navbar-link:nth-child(2) {
+  top: 6rem;
+  right: 2rem;
+}
+
+.navbar-link:nth-child(3) {
+  bottom: 6rem;
+  right: 2rem;
+}
+
+.navbar-link:nth-child(4) {
+  bottom: 2rem;
+}
+
+.navbar-link:nth-child(5) {
+  bottom: 6rem;
+  left: 2rem;
+}
+
+.navbar-link:nth-child(6) {
+  top: 6rem;
+  left: 2rem;
+}
+
+.navbar-btn {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  background: #4a69bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.navbar-btn i {
+  font-size: 2rem;
+  color: #fff;
+  transition: transform 0.5s;
+}
+
+.change .navbar-btn i {
+  transform: rotate(45deg);
+}

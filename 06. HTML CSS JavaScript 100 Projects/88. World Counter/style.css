@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  margin: 25px;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  line-height: 1.4;
+  box-shadow: 2px 1px 5px 1px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.text-input {
+  width: 100%;
+  height: 225px;
+  margin-bottom: 25px;
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+}

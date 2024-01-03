@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="signup">
+        <span>Not a member?</span>
+        <button type="button" class="sign-up-btn">Sign Up</button>
+      </div>
+      <div class="login">
+        <span>Already have an account?</span>
+        <button type="button">Login</button>
+      </div>
+
+      <div class="back-layer">
+        <form action="" class="login-form active">
+          <h2 class="login-label">Login</h2>
+          <input type="email" id="lemail" placeholder="Email" />
+          <input type="password" id="lpassword" placeholder="Password" />
+          <button type="button">Login</button>
+        </form>
+
+        <form action="" class="signup-form">
+          <h2>Sign Up</h2>
+          <input type="text" id="f-name" placeholder="First Name" />
+          <input type="text" id="l-name" placeholder="last Name" />
+          <input type="email" id="semail" placeholder="Email" />
+          <input type="password" id="spassword" placeholder="Password" />
+          <button type="button">Sign Up</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

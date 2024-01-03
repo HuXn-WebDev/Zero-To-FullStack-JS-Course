@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff6e00;
+  padding: 5px;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 10px;
+  position: relative;
+  transition: width 1.5s;
+}
+
+.input {
+  margin: 10px 50px;
+  margin-left: 20px;
+  width: 100%;
+  color: #ff6e00;
+  border: none;
+  background: transparent;
+  outline: none;
+  transition-delay: 0.5s;
+}
+
+.magnifier {
+  position: absolute;
+  right: 15px;
+  width: 25px;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  color: #ffa31a;
+}
+
+ul li {
+  display: inline;
+  margin-left: 40px;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+  padding: 3rem;
+  box-shadow: 10px 10px 40px 5px #e0e0e0;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-container h1 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #2c2c2c;
+}
+
+.content-container p {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  color: #444444;
+  width: 26rem;
+}
+
+.img {
+  transform: translateX(-120px);
+  margin-top: 1rem;
+  width: 350px;
+  height: 350px;
+  border-radius: 300px;
+  background: url("https://images.unsplash.com/photo-1600289031464-74d374b64991?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: conver;
+}
+
+.ingredients {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding: 50px;
+}
+
+.ingredients span {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.ing {
+  padding: 10px 20px;
+  border: 2px solid #ff6e00;
+  color: #ff6e00;
+  font-family: sans-serif;
+  border-radius: 100px;
+}
+
+.main-btn {
+  background: transparent;
+  border: none;
+  border: 2px solid #ffa31a;
+  padding: 10px;
+  color: #ffa31a;
+}

@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live User Filter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h4 class="title">Search by name and/or location</h4>
+        <input type="text" id="filter" placeholder="Search" />
+      </header>
+
+      <ul id="result" class="user-list">
+        <li>
+          <h3>Loading...</h3>
+        </li>
+      </ul>
+    </div>
+
+    <div class="toggler-container">
+      <input type="checkbox" id="switch" />
+      <label for="switch"></label>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

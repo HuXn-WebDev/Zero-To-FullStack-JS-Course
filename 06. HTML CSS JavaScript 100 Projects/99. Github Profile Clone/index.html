@@ -1,0 +1,289 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Profile Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <i class="fa-brands fa-github"></i>
+      <section class="nav-container">
+        <ul>
+          <li>
+            <a href="#">Product <i class="fa-solid fa-chevron-down"></i> </a>
+          </li>
+          <li>
+            <a href="#">Solutions <i class="fa-solid fa-chevron-down"></i> </a>
+          </li>
+          <li><a href="#">Open Source</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+
+        <form>
+          <input type="text" placeholder="Search" />
+        </form>
+      </section>
+
+      <div class="btns-container">
+        <a href="#">Sign In</a>
+        <button>Sign Up</button>
+      </div>
+    </nav>
+
+    <header>
+      <ul>
+        <li>
+          <a href="#" class="active">
+            <i class="fa-solid fa-book-open"></i> Overview
+          </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-solid fa-folder"></i> Repositories </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-solid fa-cloud"></i> Projects </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-solid fa-cube"></i> Packages </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-solid fa-star"></i> Stars </a>
+        </li>
+      </ul>
+    </header>
+
+    <section class="main-container">
+      <main>
+        <p>Popular Repositories</p>
+        <div class="repos">
+          <!--   <div class="repo-card">
+            <a href="#" class="repo-title">HTML-CSS-JavaScript-100-Projects</a>
+            <p class="repo-subtitle">Build 100+ projects in 100 days [free]</p>
+
+            <div class="popularity">
+              <p class="technology-used">HTML</p>
+              <div class="stars"><i class="fa-regular fa-star"></i>35</div>
+
+              <div class="fork">
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  fill="#4a515d"
+                  class="fork-svg"
+                >
+                  <g>
+                    <path
+                      d="M256,369.8v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V369.8v-28.4c-47.1,0-85.3,38.2-85.3,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V369.8z"
+                    />
+                    <path
+                      d="M113.8,28.4v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V28.4V0C66.6,0,28.5,38.2,28.4,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V28.4z"
+                    />
+                    <path
+                      d="M398.2,28.4v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V28.4V0c-47.1,0-85.3,38.2-85.3,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V28.4z"
+                    />
+                    <path
+                      d="M85.3,142.2v56.9c0,47.1,38.2,85.3,85.3,85.3h170.7c47.1,0,85.3-38.2,85.3-85.3v-56.9c0-15.7-12.7-28.4-28.4-28.4
+s-28.4,12.7-28.4,28.4v56.9c0,15.7-12.8,28.4-28.4,28.4H170.7c-15.7,0-28.4-12.8-28.4-28.4l0-56.9c0-15.7-12.7-28.4-28.4-28.4
+S85.3,126.5,85.3,142.2z"
+                    />
+                    <path
+                      d="M227.6,256v113.8c0,15.7,12.7,28.4,28.4,28.4c15.7,0,28.4-12.7,28.4-28.4V256c0-15.7-12.7-28.4-28.4-28.4
+C240.3,227.6,227.6,240.3,227.6,256"
+                    />
+                  </g>
+                </svg>
+                <span class="forked">20</span>
+              </div>
+            </div>
+            <p class="pill">Public</p>
+          </div>
+          <div class="repo-card">
+            <a href="#" class="repo-title">HTML-CSS-JavaScript-100-Projects</a>
+            <p class="repo-subtitle">Build 100+ projects in 100 days [free]</p>
+
+            <div class="popularity">
+              <p class="technology-used">HTML</p>
+              <div class="stars"><i class="fa-regular fa-star"></i>35</div>
+
+              <div class="fork">
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  fill="#4a515d"
+                  class="fork-svg"
+                >
+                  <g>
+                    <path
+                      d="M256,369.8v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V369.8v-28.4c-47.1,0-85.3,38.2-85.3,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V369.8z"
+                    />
+                    <path
+                      d="M113.8,28.4v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V28.4V0C66.6,0,28.5,38.2,28.4,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V28.4z"
+                    />
+                    <path
+                      d="M398.2,28.4v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V28.4V0c-47.1,0-85.3,38.2-85.3,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V28.4z"
+                    />
+                    <path
+                      d="M85.3,142.2v56.9c0,47.1,38.2,85.3,85.3,85.3h170.7c47.1,0,85.3-38.2,85.3-85.3v-56.9c0-15.7-12.7-28.4-28.4-28.4
+s-28.4,12.7-28.4,28.4v56.9c0,15.7-12.8,28.4-28.4,28.4H170.7c-15.7,0-28.4-12.8-28.4-28.4l0-56.9c0-15.7-12.7-28.4-28.4-28.4
+S85.3,126.5,85.3,142.2z"
+                    />
+                    <path
+                      d="M227.6,256v113.8c0,15.7,12.7,28.4,28.4,28.4c15.7,0,28.4-12.7,28.4-28.4V256c0-15.7-12.7-28.4-28.4-28.4
+C240.3,227.6,227.6,240.3,227.6,256"
+                    />
+                  </g>
+                </svg>
+                <span class="forked">20</span>
+              </div>
+            </div>
+            <p class="pill">Public</p>
+          </div>
+          <div class="repo-card">
+            <a href="#" class="repo-title">HTML-CSS-JavaScript-100-Projects</a>
+            <p class="repo-subtitle">Build 100+ projects in 100 days [free]</p>
+
+            <div class="popularity">
+              <p class="technology-used">HTML</p>
+              <div class="stars"><i class="fa-regular fa-star"></i>35</div>
+
+              <div class="fork">
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  fill="#4a515d"
+                  class="fork-svg"
+                >
+                  <g>
+                    <path
+                      d="M256,369.8v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V369.8v-28.4c-47.1,0-85.3,38.2-85.3,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V369.8z"
+                    />
+                    <path
+                      d="M113.8,28.4v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V28.4V0C66.6,0,28.5,38.2,28.4,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V28.4z"
+                    />
+                    <path
+                      d="M398.2,28.4v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V28.4V0c-47.1,0-85.3,38.2-85.3,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V28.4z"
+                    />
+                    <path
+                      d="M85.3,142.2v56.9c0,47.1,38.2,85.3,85.3,85.3h170.7c47.1,0,85.3-38.2,85.3-85.3v-56.9c0-15.7-12.7-28.4-28.4-28.4
+s-28.4,12.7-28.4,28.4v56.9c0,15.7-12.8,28.4-28.4,28.4H170.7c-15.7,0-28.4-12.8-28.4-28.4l0-56.9c0-15.7-12.7-28.4-28.4-28.4
+S85.3,126.5,85.3,142.2z"
+                    />
+                    <path
+                      d="M227.6,256v113.8c0,15.7,12.7,28.4,28.4,28.4c15.7,0,28.4-12.7,28.4-28.4V256c0-15.7-12.7-28.4-28.4-28.4
+C240.3,227.6,227.6,240.3,227.6,256"
+                    />
+                  </g>
+                </svg>
+                <span class="forked">20</span>
+              </div>
+            </div>
+            <p class="pill">Public</p>
+          </div>
+          <div class="repo-card">
+            <a href="#" class="repo-title">HTML-CSS-JavaScript-100-Projects</a>
+            <p class="repo-subtitle">Build 100+ projects in 100 days [free]</p>
+
+            <div class="popularity">
+              <p class="technology-used">HTML</p>
+              <div class="stars"><i class="fa-regular fa-star"></i>35</div>
+
+              <div class="fork">
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  fill="#4a515d"
+                  class="fork-svg"
+                >
+                  <g>
+                    <path
+                      d="M256,369.8v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V369.8v-28.4c-47.1,0-85.3,38.2-85.3,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V369.8z"
+                    />
+                    <path
+                      d="M113.8,28.4v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V28.4V0C66.6,0,28.5,38.2,28.4,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V28.4z"
+                    />
+                    <path
+                      d="M398.2,28.4v28.4c15.7,0,28.4,12.8,28.4,28.4c0,15.7-12.8,28.4-28.4,28.4c-15.7,0-28.4-12.8-28.4-28.4
+c0-15.7,12.8-28.4,28.4-28.4V28.4V0c-47.1,0-85.3,38.2-85.3,85.3c0,47.1,38.2,85.3,85.3,85.3c47.1,0,85.3-38.2,85.3-85.3
+c0-47.1-38.2-85.3-85.3-85.3V28.4z"
+                    />
+                    <path
+                      d="M85.3,142.2v56.9c0,47.1,38.2,85.3,85.3,85.3h170.7c47.1,0,85.3-38.2,85.3-85.3v-56.9c0-15.7-12.7-28.4-28.4-28.4
+s-28.4,12.7-28.4,28.4v56.9c0,15.7-12.8,28.4-28.4,28.4H170.7c-15.7,0-28.4-12.8-28.4-28.4l0-56.9c0-15.7-12.7-28.4-28.4-28.4
+S85.3,126.5,85.3,142.2z"
+                    />
+                    <path
+                      d="M227.6,256v113.8c0,15.7,12.7,28.4,28.4,28.4c15.7,0,28.4-12.7,28.4-28.4V256c0-15.7-12.7-28.4-28.4-28.4
+C240.3,227.6,227.6,240.3,227.6,256"
+                    />
+                  </g>
+                </svg>
+                <span class="forked">20</span>
+              </div>
+            </div>
+            <p class="pill">Public</p>
+          </div> -->
+        </div>
+      </main>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

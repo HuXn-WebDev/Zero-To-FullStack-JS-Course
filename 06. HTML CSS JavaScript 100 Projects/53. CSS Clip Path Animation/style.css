@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: black;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  clip-path: circle(200px at var(--1) var(--2));
+}

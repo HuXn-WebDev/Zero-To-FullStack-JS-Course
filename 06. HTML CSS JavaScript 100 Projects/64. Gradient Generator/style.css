@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  margin: 10vh 10vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.cont {
+  width: 40vw;
+}
+
+.colors {
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+
+.randomColorBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  margin-left: 3rem;
+  cursor: pointer;
+}

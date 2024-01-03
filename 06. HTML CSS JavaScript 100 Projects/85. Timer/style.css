@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #21d4fd, #b721ff);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section h1 {
+  font-size: 4rem;
+  font-family: sans-serif;
+  margin: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+section #timer {
+  font-size: 4rem;
+  margin: 20px;
+}
+
+section button {
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+}
+
+button {
+  margin: 10px;
+  color: #fff;
+  width: 6rem;
+  cursor: pointer;
+}
+
+#start-button {
+  background: #71e027;
+}
+
+#stop-button {
+  background: crimson;
+}
+
+#reset-button {
+  background: darkblue;
+}

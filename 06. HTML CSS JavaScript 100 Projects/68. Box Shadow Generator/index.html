@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Shadow Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div id="box"></div>
+
+        <div class="sliders">
+          <input type="range" id="sldr1" value="0" min="-5" max="5" />
+          <input type="range" id="sldr2" value="0" min="-5" max="5" />
+          <input type="range" id="sldr3" value="10" min="0" max="10" />
+          <input type="range" id="sldr4" value="0" min="0" max="10" />
+        </div>
+
+        <div id="outputCode">
+          <input type="text" id="css-code" readonly />
+          <button id="copy">Copy</button>
+        </div>
+
+        <div class="colors">
+          <input type="color" id="shadowcolor" />
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
